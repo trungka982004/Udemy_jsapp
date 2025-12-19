@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background: white;
+    padding: 21px;
+    border-radius: 9px;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.1);
+    width: 301px;
+}
+
+textarea {
+    width: 101%;
+    height: 101px;
+    padding: 11px;
+    margin-bottom: 11px;
+}
+
+button {
+    width: 101%;
+    padding: 11px;
+    background: #28a745;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+button:hover {
+    background: #218838;
+}
+
+.note {
+    background: #fff3cd;
+    padding: 11px;
+    margin-top: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deleteBtn {
+    background: red;
+    border: none;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+}
