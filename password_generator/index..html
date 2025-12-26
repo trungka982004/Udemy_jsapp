@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 0;
+        }
+        input {
+            width: 250px;
+            padding: 10px;
+            font-size: 16px;
+            text-align: center;
+        }
+        button {
+            padding: 9px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Random Password Generator</h2>
+    <input type="text" id="password" readonly>
+    <br>
+    <button onclick="generatePassword()">Generate Password</button>
+    <button onclick="copyPassword()">Copy to Clipboard</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
